@@ -3,18 +3,17 @@
 
 def prime_checker(number):
   is_prime = True
-  while is_prime:
-    for num in range(2, number + 1):
-      if number % num == 0 and not num == number:
+  if is_prime == True:
+    for num in range(2, number):
+      if number % num == 0:
         is_prime = False
-    print("Not a Prime")
-
-  
-
-    
-      
         
-    
+
+  if is_prime == False:
+    print("Not a prime")
+  elif is_prime == True:
+    print("Prime")  
+
     
 #Write your code above this line 👆
     
