@@ -10,9 +10,9 @@ def prime_checker(number):
         
 
   if is_prime == False:
-    print("Not a prime")
+    print("It's not a prime number.")
   elif is_prime == True:
-    print("Prime")  
+    print("It's a prime number.")  
 
     
 #Write your code above this line 👆
